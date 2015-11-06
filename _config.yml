@@ -1,7 +1,8 @@
 # Site settings
 title: Pepyn Swagemakers
 email: ps222nq@student.lnu.se
-description: Portfolio site for the course 1DV022, part of CS degree at Linnaeus University
+description: > # this means to ignore newlines until "baseurl:"
+Portfolio site for the 1DV022 Course at Linnaeus University.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: PepynS

@@ -3,7 +3,7 @@
  */
 .site-header {
     //border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    //border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
     background-color: $background2;
 
@@ -166,6 +166,9 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    background-image: linear-gradient(180deg, $background2, $background2 10%, $background2);
+    background-size: 100% 50px;
+    background-repeat: no-repeat;
 }
 
 .page-heading {
@@ -178,7 +181,8 @@
 
     > li {
         margin-bottom: $spacing-unit;
-        background-color: white;
+        //background-color: white;
+        //box-shadow: 4px 4px 2px darken($background-color, 50%);
     }
 }
 
@@ -237,4 +241,9 @@
             font-size: 18px;
         }
     }
+}
+
+.white-box-shaded {
+    background-color: white;
+    box-shadow: 4px 4px 2px darken($background-color, 50%);
 }

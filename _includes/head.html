@@ -3,10 +3,11 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <meta property="og:title" content= "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://ps222nq.github.io{% if page.url %}{{ page.url }}{% endif %}" />
-    <meta property="og:image" content="http://ps222nq.github.io/src/img/pepyn.jpeg" />
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+    <meta property="og:image" content="{{ "/src/pics/pepyn.jpeg" | prepend: site.url }}" />
+    <meta property="og:description" content="{{ site.description }}">
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">

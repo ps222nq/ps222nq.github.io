@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Assignment 1"
 date:   2015-11-17 19:56:12
-categories: random
+categories: 1DV022
 ---
 
 This blog post is a reflection on the first exam assignment for the 1DV022 course. As written in a previous post,

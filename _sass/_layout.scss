@@ -174,7 +174,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: $spacing-unit;
     background-image: linear-gradient(180deg, $background2, $background2 10%, $background2);
     background-size: 100% 80px;
     background-repeat: no-repeat;
@@ -258,6 +258,7 @@
 }
 
 .white-box-shaded {
+    padding: 1em;
     background-color: white;
     box-shadow: 4px 4px 2px darken($background-color, 50%);
 }

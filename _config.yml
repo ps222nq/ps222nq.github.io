@@ -1,7 +1,8 @@
 # Site settings
 title: Pepyn Swagemakers
 email: ps222nq@student.lnu.se
-description: Portfolio site for the 1DV022 Course at Linnaeus University, by Pepyn Swagemakers
+description: Portfolio site for the 1DV022 Course at Linnaeus University, by Pepyn Swagemakers.
+linkedin: <a href="https://se.linkedin.com/in/pepyn" alt="Pepyn Swagemakers"> Connect with me on LinkedIn.</a>
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: PepynS

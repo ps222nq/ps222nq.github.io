@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Hello, World!"
 date:   2015-11-06 10:56:12
 categories: random
